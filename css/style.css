@@ -1,0 +1,27 @@
+/*
+ * style.css
+ * author Jelon Cheung
+ * date 2014-6-14
+ *
+ */
+*{margin:0;padding:0;}
+body{font-size:14px;font-family:"microsoft yahei";color:#333;background:#fff;overflow:hidden;}
+a{text-decoration:none;color:#333;}
+img{border:none;}
+
+.dvd-wrap{position:relative;width:152px;height:152px;margin:100px auto 50px;}
+.dvd{width:150px;height:150px;background:#fff url(../images/0.jpg) no-repeat 50% 50%;border:1px solid #ededed;border-radius:50%;}
+.play-btn{position:absolute;display:block;top:58px;left:58px;width:32px;height:32px;line-height:32px;font-weight:bold;font-family:Consolas,"Courier New",Courier;/*等宽字体*/color:#fafafa;border:2px solid #fff;border-radius:50%;background:rgba(0,0,0,.25);text-align:center;cursor:pointer;}
+.animation-running{animation:jelon-rotate 10s linear infinite;-webkit-animation:jelon-rotate 10s linear infinite;-moz-animation:jelon-rotate 10s linear infinite;-o-animation:jelon-rotate 10s linear infinite;-ms-animation:jelon-rotate 10s linear infinite;-webkit-animation-play-state:running;}
+.progress-wrap{width:100%;height:4px;background:#ededed;}
+.progress-wrap .progress-bar{width:0;height:4px;background:#9cf;}
+@-webkit-keyframes jelon-rotate{from{-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-o-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);-o-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}}
+@-moz-keyframes jelon-rotate{from{-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-o-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);-o-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}}
+@-o-keyframes jelon-rotate{from{-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-o-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);-o-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}}
+@-ms-keyframes jelon-rotate{from{-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-o-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(360deg);-moz-transform:rotate(360deg);-o-transform:rotate(360deg);-ms-transform:rotate(360deg);transform:rotate(360deg)}}
+.music-name{width:100%;height:18px;line-height:16px;margin:0 0 10px;font-size:16px;color:#fcc;text-align:center;}
+.music-name span{font-size:12px;}
+.lrc{width:100%;height:30px;line-height:30px;margin:20px 0 30px;color:#9cf;text-align:center;}
+
+.copyright{margin-top:100px;border-top:1px solid #ddd;font-size:12px;text-align:center;line-height:30px;}
+.copyright a{color:#333;text-decoration:none;}
