@@ -1,4 +1,4 @@
-cd
+﻿cd
 ==
 
 音乐盒特效
@@ -8,3 +8,4 @@ cd
 
 ==
 demo地址: http://jelon.in/demos/cd/
+email: jangdelong@foxmail.com
