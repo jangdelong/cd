@@ -156,7 +156,7 @@
 
 
 			counter++;
-		
+			//歌词遍历结束临界情况
 			if (counter >= lrc_time_arr.length) lrc_time = m_0.duration*1000 - lrc_time_arr[length-1];
 			else lrc_time = lrc_time_arr[counter]*1000 - lrc_time_arr[counter-1]*1000;
 			
