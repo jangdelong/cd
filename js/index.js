@@ -64,6 +64,7 @@
 			lrc_timer = null;
 		}
 	};
+	//绑定播放按钮hover样式
 	play_btn.onmouseover = function() {
 		this.style.borderColor = '#9cc';
 		this.style.color = '#9cc';
